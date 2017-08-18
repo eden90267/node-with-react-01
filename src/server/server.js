@@ -31,7 +31,7 @@ api.api(app);
 
 
 import React from 'react';
-import {renderToString} from "react-dom";
+import {renderToString} from "react-dom/server";
 import {configureStore} from "../redux/store";
 import {createRoutes, match, RouterContext} from "react-router";
 import root from "../client/root";

@@ -5,6 +5,7 @@ export function userInfo(state={}, action) {
         ...state,
         account: action.payload.account,
         email: action.payload.email,
+        name: action.payload.name,
         login: true
       };
     case 'LOG_OUT':

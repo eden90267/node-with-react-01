@@ -27,7 +27,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <IconButton tooltip="主選單" onTouchStart={this.handleToggle}>
+        <IconButton tooltip="主選單" onTouchTap={this.handleToggle}>
           <MainNavBtn/>
         </IconButton>
         <Drawer

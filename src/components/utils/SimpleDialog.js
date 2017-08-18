@@ -22,7 +22,7 @@ export default class DialogExampleSimple extends Component {
         label="確定"
         primary={true}
         keyboardFocused={true}
-        onTouchStart={this.handleClose}
+        onTouchTap={this.handleClose}
       />
     ];
 

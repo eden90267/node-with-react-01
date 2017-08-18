@@ -104,8 +104,9 @@ class Register extends Component {
     if (this.state.account === '' || this.state.password === ''
       || this.state.password1 === '' || this.state.email === ''
       || this.state.nickName === '') {
-      this.state({dialog: true});
+      this.setState({dialog: true});
       this.setState({dialogText: '您好，請填完所有欄位再點選'});
+      return;
     }
     axios
       .post('/signup', {

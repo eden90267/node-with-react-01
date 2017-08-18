@@ -1,4 +1,4 @@
-import {User} from 'DB';
+import {User} from './DB';
 
 exports.api = (app) => {
 
